@@ -58,11 +58,10 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 ## Contributors
 
-Thanks to the following people who have contributed to this project:
+Current contributors:
 
 * [@dharanee8686](https://github.com/dharanee8686) 📖
 
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
 
 ## Contact
 

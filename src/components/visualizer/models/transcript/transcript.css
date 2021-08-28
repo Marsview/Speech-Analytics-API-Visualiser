@@ -1,0 +1,11 @@
+.mv-transcript-container .card .card-body p{
+    font-size: 14px;
+}
+
+.mv-transcript-container .card .card-header .avatar {
+    background-color: #040320;
+    height: 24px;
+    width: 24px;
+    font-size: 12px;
+    margin-right: 10px;
+}

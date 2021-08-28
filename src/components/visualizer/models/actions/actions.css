@@ -1,0 +1,8 @@
+.mv-actions-container p {
+    font-size: 14px !important;
+}
+
+.mv-actions-container hr:not([size]) {
+    height: auto !important;
+    background: rgba(0, 0, 0, 0.09)
+}

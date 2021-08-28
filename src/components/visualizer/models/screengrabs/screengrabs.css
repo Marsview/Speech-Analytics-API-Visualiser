@@ -1,0 +1,25 @@
+.mv-screengrabs-container .card .card-body svg circle:hover{
+    cursor: pointer;
+}
+
+svg {
+    overflow: visible !important;
+}
+
+.circle {
+	stroke-width: 10;
+	stroke-linecap: round;
+}
+.circle:hover {
+	stroke-width: 15;
+    cursor: pointer;
+}
+
+.font-smaller {
+    font-size: 12px !important;
+}
+
+.mv-screengrabs-container hr:not([size]) {
+    height: auto !important;
+    background: rgba(0, 0, 0, 0.09);
+}

@@ -1,0 +1,121 @@
+[mv-title]:hover::after {
+    position: absolute;
+    font-size: 12px;
+    padding: 5px 7px;
+    opacity: 1 !important;
+    bottom: -150%;
+    right: -50%;
+    content: attr(mv-title);
+    color: #040320;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Custom style for application */
+
+body[data-theme='light'],
+.light-bg,
+.light-mode-texts {
+    --bg: $white;
+    --bg-2: #f8f9fc;
+    --color-headings: #25373f;
+    --color-texts: rgba(37, 55, 63, 0.7);
+    --color-texts-2: #3b4656;
+    --color-texts-3: rgba(38, 39, 41, 0.7);
+    --border-color: rgba(128, 138, 142, 0.2);
+    --border-color-2: rgba(37, 55, 63, 0.1);
+}
+
+body {
+    --bg: $white;
+    --bg-2: #f8f9fc;
+    --color-headings: #25373f;
+    --color-texts: rgba(37, 55, 63, 0.7);
+    --color-texts-2: #3b4656;
+    --color-texts-3: rgba(38, 39, 41, 0.7);
+    --border-color: rgba(128, 138, 142, 0.2);
+    --border-color-2: rgba(37, 55, 63, 0.1);
+    --color-blue: #3952FF;
+    --color-mirage: #040320;
+    font-family: 'Inter';
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+@media screen and (max-width:50em) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1D263A !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-blue) !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+/*Preloader css*/
+div#loading {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#loading img {
+    z-index: 9999 !important;
+}
+
+.preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff !important;
+}
+
+.preloader img {
+    width: 100px;
+}
+
+.application-container {
+    height: 100% !important;
+    padding: 2em;
+}
+
+.application-container>div {
+    height: 100%;
+}
+
+.error-404-container {
+    width: 100%;
+    text-align: center;
+    font-size: 20em;
+}
+
+.application-content {
+    /* padding: 5em 3em; */
+    width: 100%;
+}

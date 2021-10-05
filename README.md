@@ -64,8 +64,7 @@ Current contributors:
 
 
 ## Contact
-
-If you want to contact me you can reach me at dharanee@marsview.ai
+For any queries regarding this application you can contact us at support@marsview.ai
 
 ## License
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->

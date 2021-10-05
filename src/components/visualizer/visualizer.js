@@ -8,6 +8,7 @@ import Summary from './models/summaryData/summary';
 import QuestionResponse from './models/questionResponse/questions';
 import Screengrabs from './models/screengrabs/screengrabs';
 import DataInsights from './models/dataInsights/dataInsights';
+import Intent from './models/intents/intents';
 
 import './index.css';
 import './visualizer.css';
@@ -120,7 +121,7 @@ class DataVisualize extends Component {
         })
       }
     }
-    if(!(data.actionsData || data.meetingActivity || data.questionResponse || data.screengrabs)) {
+    if(!(data.actionsData || data.meetingActivity || data.questionResponse || data.screengrabs || data.suggestedIntents)) {
       this.setState({
         leftContainer: false
       })
@@ -204,6 +205,7 @@ class DataVisualize extends Component {
                       <Actions fileData={this.state.fileData}/>
                       <MeetingActivity fileData={this.state.fileData}/>
                       <QuestionResponse fileData={this.state.fileData} />
+                      <Intent fileData={this.state.fileData} />
                       <Screengrabs fileData={this.state.fileData}/>
                     </div>
                   </div>
